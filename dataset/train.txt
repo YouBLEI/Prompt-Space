@@ -1,0 +1,10 @@
+From Table 1, we notice that as the quality of the prompt
+deteriorates, from the original, manually annotated few shot
+setting, to the zero shot setting, to the nonsense setting, so
+too does the performance of boosted prompting. This is understandable,
+because boosted prompting uses the model to
+provide self supervised chains of thought for all subsequent
+ensemble members and a worse initial prompt means worse
+self supervision. The performance of the original prompt is
+also a direct factor since we keep the original prompt as one
+of the ten ensemble members
